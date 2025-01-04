@@ -40,3 +40,11 @@ public class ReturnArrayHavingMaxNumber {
 		System.out.println(Arrays.toString(op));
 	}
 }
+
+/*
+
+OUTPUT
+Array having maximum number from each index of given two array.
+[10, 102, 28, 77, 88]
+
+*/

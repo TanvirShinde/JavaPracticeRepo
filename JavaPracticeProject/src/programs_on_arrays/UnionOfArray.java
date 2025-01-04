@@ -40,3 +40,11 @@ public class UnionOfArray {
 		}
 	}
 }
+
+/*
+
+OUTPUT
+Unioin of Array --> 
+10 19 18 99 8 
+
+*/

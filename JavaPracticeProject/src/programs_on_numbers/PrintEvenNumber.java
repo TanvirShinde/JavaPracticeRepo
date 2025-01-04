@@ -12,3 +12,12 @@ public class PrintEvenNumber {
 		printEvenNumbers(10,15);
 	}
 }
+
+/*
+
+OUTPUT
+10 is Even Number.
+12 is Even Number.
+14 is Even Number.
+
+*/

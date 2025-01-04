@@ -15,3 +15,10 @@ public class AvgOfArrayElements {
 	}
 
 }
+
+/*
+
+OUTPUT
+The average of Array Elements is  : 39
+
+*/

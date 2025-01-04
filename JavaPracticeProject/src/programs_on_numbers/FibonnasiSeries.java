@@ -8,7 +8,6 @@ public class FibonnasiSeries {
 		int a=0;
 		int b=1;
 		int c;
-
 		int i=0;
 
 		System.out.print("FibonnasiSeries is as  :");
@@ -25,3 +24,10 @@ public class FibonnasiSeries {
 		}	
 	}	
 }
+
+/*
+
+OUTPUT
+FibonnasiSeries is as  : 1 2 3 5 8 13 21 34 55 89 144 233 377
+
+*/

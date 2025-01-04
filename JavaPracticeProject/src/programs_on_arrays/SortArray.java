@@ -24,9 +24,26 @@ public class SortArray {
 		Arrays.sort(jk);
 
 		for (int cx:jk) {
-
 			System.out.println(cx);
 		}
 	}
-
 }
+
+/*
+
+OUTPUT
+**********Before Sorting of array********
+5
+3
+8
+5
+11
+15
+**********AfterSortingOfArray************
+3
+5
+8
+11
+15
+
+*/

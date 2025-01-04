@@ -36,3 +36,14 @@ class UpperLowerCaseSpaceDigitCountsOfString{
 		assignment23.getCountInString("Te4c_hno Credi3ts");
 	}
 }
+
+/*
+
+OUTPUT
+Uppercase Letters: 2
+Lowercase Letters: 11
+Digits: 2
+Spaces: 1
+Special Characters: 1
+
+*/

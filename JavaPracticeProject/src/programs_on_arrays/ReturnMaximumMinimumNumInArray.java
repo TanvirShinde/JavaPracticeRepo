@@ -39,3 +39,11 @@ public class ReturnMaximumMinimumNumInArray {
 		System.out.println("Minimum number in given array is --> " + minNum);
 	}
 }
+
+/*
+
+OUTPUT
+Maximum number in given array is --> 96
+Minimum number in given array is --> 14
+
+*/

@@ -21,3 +21,10 @@ public class FrequencyOfUpperCaseLetters {
 		assignment33.getFreqChar("AABcBBBAdeddd");
 	}
 }
+
+/*
+OUTPUT
+Frequency of UpperCase Characters in given String AABcBBBAdeddd is = A -> 3
+B -> 4
+
+*/

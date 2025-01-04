@@ -29,3 +29,14 @@ public class ReturnCountOfPositiveNumsInArray {
 		System.out.println("Count of Positive Numbers in given array is ---> " + count);
 	}
 }
+
+/*
+
+OUTPUT
+Positive Numbers in given array are : 
+10
+30
+66
+Count of Positive Numbers in given array is ---> 3
+
+*/

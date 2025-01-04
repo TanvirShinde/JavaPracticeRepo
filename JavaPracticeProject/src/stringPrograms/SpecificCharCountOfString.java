@@ -17,3 +17,10 @@ class SpecificCharCountOfString{
 		assignment20.getcharcount("aakanskha", 'a');
 	}
 }
+
+/*
+
+OUTPUT
+Count of character a is = 4
+
+*/

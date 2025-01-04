@@ -14,3 +14,10 @@ public class DuplicateElementsInArray {
 		}
 	}
 }
+
+/*
+
+OUTPUT
+Duplicates of Array is : 3
+
+*/

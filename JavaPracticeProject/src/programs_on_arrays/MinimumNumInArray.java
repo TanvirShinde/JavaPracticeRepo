@@ -32,3 +32,11 @@ public class MinimumNumInArray {
 		System.out.println("Minimum Number in Given Array--> " + num2);
 	}
 }
+
+/*
+
+OUTPUT
+Minimum Number In Given Array --> 22
+Minimum Number in Given Array--> -47
+
+*/

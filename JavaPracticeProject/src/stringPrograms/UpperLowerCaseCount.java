@@ -46,3 +46,10 @@ public class UpperLowerCaseCount {
 	}
 
 }
+
+/*
+
+OUTPUT
+Comparison Result : lower
+
+*/

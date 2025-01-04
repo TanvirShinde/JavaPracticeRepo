@@ -17,3 +17,10 @@ class DigitsCountsOfString{
 		assignment22.returnTotalgdigits("aa1kan33ks4h5a");
 	}
 }
+
+/*
+
+OUTPUT
+Total Numbers of digits in given input is = 5
+
+*/

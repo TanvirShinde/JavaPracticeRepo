@@ -32,3 +32,12 @@ public class FrequencyOfChar2 {
 	}
 
 }
+
+/*
+
+OUTPUT
+Frequency of digits in given String AAB2cBB2BAd2ed3dd is =
+2->3
+3->1
+
+*/

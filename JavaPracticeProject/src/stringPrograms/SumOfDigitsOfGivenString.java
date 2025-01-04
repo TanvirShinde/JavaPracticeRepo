@@ -31,3 +31,12 @@ public class SumOfDigitsOfGivenString {
 	}
 
 }
+
+/*
+
+OUTPUT
+Sum of Digits in given strings are =13
+Sum of Digits in given strings are =0
+Sum of Digits in given strings are =18
+
+*/

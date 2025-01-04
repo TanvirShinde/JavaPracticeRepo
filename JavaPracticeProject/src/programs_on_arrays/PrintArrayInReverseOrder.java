@@ -33,3 +33,14 @@ public class PrintArrayInReverseOrder {
 		printArrayInReverse(input);
 	}
 }
+
+/*
+
+OUTPUT
+Original Array :
+10 34 22 16 19 99 
+
+Given Array in Reverse Order : 
+99 19 16 22 34 10 
+
+*/

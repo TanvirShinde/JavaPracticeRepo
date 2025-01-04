@@ -38,3 +38,14 @@ public class MaximumMinimumNumInArray {
 		a51.findMinimumAndMiximumNumber(arr1);
 	}
 }
+
+/*
+
+OUTPUT
+Maximum number in given array is --> 47
+Minimum number in given array is --> 22
+---------------------------------------
+Maximum number in given array is --> -12
+Minimum number in given array is --> -50
+
+*/

@@ -35,3 +35,14 @@ public class ReturnArrayInReverseOrder {
 		}
 	}
 }
+
+/*
+
+OUTPUT
+Original Array :
+10 34 22 16 19 99 
+
+Reverse Array :
+99 19 16 22 34 10 
+
+*/

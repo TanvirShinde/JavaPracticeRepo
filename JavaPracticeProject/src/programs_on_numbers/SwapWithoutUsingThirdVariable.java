@@ -5,7 +5,6 @@ public class SwapWithoutUsingThirdVariable {
 	public static void main(String[] args) {
 
 		int a=10;
-
 		int b=20;
 
 		a=a+b; //a=10+20---->a=30
@@ -15,9 +14,16 @@ public class SwapWithoutUsingThirdVariable {
 		a=a-b; //a=30-10------>a=20
 
 		System.out.println("After swapping : " +a+ " " +b);
-
 		System.out.println("Value of a is :" + a);
-
 		System.out.println("Value of a is :" + b);
 	}
 }
+
+/*
+
+OUTPUT
+After swapping : 20 10
+Value of a is :20
+Value of a is :10
+
+*/

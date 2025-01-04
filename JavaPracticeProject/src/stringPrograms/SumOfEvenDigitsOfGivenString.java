@@ -31,3 +31,11 @@ public class SumOfEvenDigitsOfGivenString {
 	}
 
 }
+
+/*
+OUTPUT
+Sum of Even Numbers in given string is =2
+Sum of Even Numbers in given string is =4
+Sum of Even Numbers in given string is =10
+Sum of Even Numbers in given string is =12
+*/

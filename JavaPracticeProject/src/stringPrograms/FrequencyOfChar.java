@@ -21,3 +21,14 @@ public class FrequencyOfChar {
         assignment32.getFreqChar("aakanksha");
     }
 }
+
+/*
+
+OUTPUT
+a -> 4
+k -> 2
+n -> 1
+s -> 1
+h -> 1
+
+*/

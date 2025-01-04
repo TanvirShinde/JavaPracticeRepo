@@ -17,3 +17,10 @@ public class LastNumDivby5 {
 		System.out.println(lastNum + " is the last number which is div by 5 in the given range.");
 	}
 }
+
+/*
+
+OUTPUT
+495 is the last number which is div by 5 in the given range.
+
+*/

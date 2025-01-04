@@ -4,7 +4,7 @@ public class WholeNumber {
 
 	public static void main(String[] args) {
 
-		int a=15;
+		int a=10;
 
 		System.out.print("Whole numbers are : ");
 
@@ -14,3 +14,10 @@ public class WholeNumber {
 		}
 	}
 }
+
+/*
+
+OUTPUT
+Whole numbers are :  0 1 2 3 4 5 6 7 8 9 10
+
+*/

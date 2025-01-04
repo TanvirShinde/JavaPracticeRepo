@@ -19,3 +19,12 @@ public class FindStringHavingLengthMoreThan6InArray {
 		a47.getArray(names);
 	}
 }
+
+/*
+
+OUTPUT
+String having length more than 6 are : 
+Premlata
+Fazrana
+
+*/

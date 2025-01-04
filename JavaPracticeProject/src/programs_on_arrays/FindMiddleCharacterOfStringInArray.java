@@ -29,3 +29,13 @@ public class FindMiddleCharacterOfStringInArray {
 		a46.getArray(names);
 	}
 }
+
+/*
+
+OUTPUT
+Middle Character of string Rohan is --> h
+Middle Character of string Premlata is --> m
+Middle Character of string Anuja is --> u
+Middle Character of string Fazrana is --> r
+
+*/

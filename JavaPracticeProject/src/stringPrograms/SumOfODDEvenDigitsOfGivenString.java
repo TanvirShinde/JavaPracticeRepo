@@ -51,3 +51,11 @@ public class SumOfODDEvenDigitsOfGivenString {
 	}
 
 }
+
+/*
+
+OUTPUT
+Difference of Sum of All Odd Nos and Even Nos in given String is 9
+Difference of Sum of All Odd Nos and Even Nos in given String is -2
+
+*/

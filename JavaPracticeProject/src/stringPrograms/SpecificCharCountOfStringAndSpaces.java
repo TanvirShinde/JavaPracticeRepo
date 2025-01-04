@@ -19,3 +19,10 @@ class SpecificCharCountOfStringAndSpaces{
 		assignment21.getcharcount("prem lata gupta");
 	}
 }
+
+/*
+
+OUTPUT
+Count of character a is = 13 and count of spaces is = 2
+
+*/

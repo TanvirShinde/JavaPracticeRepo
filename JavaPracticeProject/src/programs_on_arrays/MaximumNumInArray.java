@@ -32,3 +32,11 @@ public class MaximumNumInArray {
 		System.out.println("Maximum Number In Given Array --> " + num2);
 	}
 }
+
+/*
+
+OUTPUT
+Maximum Number In Given Array --> 47
+Maximum Number In Given Array --> -22
+
+*/
