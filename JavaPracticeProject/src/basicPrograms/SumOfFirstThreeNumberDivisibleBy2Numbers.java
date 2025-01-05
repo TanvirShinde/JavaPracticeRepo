@@ -1,5 +1,4 @@
 package basicPrograms;
-
 class SumOfFirstThreeNumberDivisibleBy2Numbers{
 	void nosdivisible1(int startRange, int endRange){
 		int count=0;
@@ -14,12 +13,17 @@ class SumOfFirstThreeNumberDivisibleBy2Numbers{
 					break;
 				}
 			}
-		}System.out.println("Sum of first 3 numbers is "+sum +" and "+" Average of first 3 Numbers is " +avg);
-
-		
+		}
+		System.out.println("Sum of first 3 numbers is "+sum +" and "+" Average of first 3 Numbers is " +avg);	
 	}
+
 	public static void main(String[] args){
-		SumOfFirstThreeNumberDivisibleBy2Numbers assignment16=new SumOfFirstThreeNumberDivisibleBy2Numbers();
-		assignment16.nosdivisible1(1,210);
+		SumOfFirstThreeNumberDivisibleBy2Numbers sum=new SumOfFirstThreeNumberDivisibleBy2Numbers();
+		sum.nosdivisible1(1,210);
 	}
 }
+
+/*
+OUTPUT
+Sum of first 3 numbers is 210 and  Average of first 3 Numbers is 70
+*/

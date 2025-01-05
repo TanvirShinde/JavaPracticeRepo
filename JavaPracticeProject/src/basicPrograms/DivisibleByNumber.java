@@ -1,35 +1,41 @@
-/*
-1. On user defined range print all numbers which are divisible by 5 and divisible by 3.
-Hint : pass start and end index as a parameter.
 
-Input : Range -> 5 to 40
-*/
 package basicPrograms;
-
 public class DivisibleByNumber {
-	
+
 	void divisibleby5(int startindex, int endIndex) {
 		System.out.println("Numbers divisible by 5 are: ");
 		for(int i=startindex;i<=endIndex;i++) {
-		if(i%5==0) {
-			System.out.println(i);
+			if(i%5==0) {
+				System.out.println(i);
 			}
 		}
 	}
-		void divisibleby3(int startindex,int endIndex) {
-			System.out.println("------------------------------------");
-			System.out.println("Numbers divisible by 3 are: ");
+	void divisibleby3(int startindex,int endIndex) {
+		System.out.println("------------------------------------");
+		System.out.println("Numbers divisible by 3 are: ");
 		for(int x=startindex;x<=endIndex;x++) {
 			if(x%3==0) {
-			System.out.println(x);
+				System.out.println(x);
 			}
 		}
 	}
-public static void main(String[] args) {
-		DivisibleByNumber assignment13=new DivisibleByNumber();
-		assignment13.divisibleby5(10,20);
-		assignment13.divisibleby3(10,20);
-		
-	}
 
+	public static void main(String[] args) {
+		DivisibleByNumber number=new DivisibleByNumber();
+		number.divisibleby5(10,20);
+		number.divisibleby3(10,20);
+	}
 }
+
+/*
+OUTPUT
+Numbers divisible by 5 are: 
+10
+15
+20
+------------------------------------
+Numbers divisible by 3 are: 
+12
+15
+18
+*/

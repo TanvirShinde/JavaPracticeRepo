@@ -1,5 +1,4 @@
 package basicPrograms;
-
 class DivisibleByTwoNumbers{
 	void nosdivisible(int startRange, int endRange){
 		int count=0;
@@ -9,12 +8,17 @@ class DivisibleByTwoNumbers{
 				sum=sum+i;
 				count++;
 			}
-		}System.out.println("Sum of all numbers divisible by 3 and 5 is ="+sum +" In the range 1 to 70 numbers divisible by 3 and 5 are= "+count);
-		
+		}
+		System.out.println("Sum of all numbers divisible by 3 and 5 is ="+sum +" In the range 1 to 70 numbers divisible by 3 and 5 are= "+count);
 	}
 	
 	public static void main(String[] args){
-		DivisibleByTwoNumbers assignment14=new DivisibleByTwoNumbers();
-		assignment14.nosdivisible(1,30);
+		DivisibleByTwoNumbers number=new DivisibleByTwoNumbers();
+		number.nosdivisible(1,30);
 	}
 }
+
+/*
+OUTPUT
+Sum of all numbers divisible by 3 and 5 is =45 In the range 1 to 70 numbers divisible by 3 and 5 are= 2
+*/

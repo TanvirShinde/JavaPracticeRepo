@@ -1,26 +1,25 @@
 package basicJava;
-
 class EmployeeDetailsPrint{
-	
+
 	String firstName;
 	String lastName;
 	int empId;
 	int managerID;
 	String address;
 	String phoneNumber;
-	
+
 	void updatePrimaryInfo(String fname,String lName, int eId, int mngID){
-		
 		firstName=fname;
 		lastName=lName;
 		empId=eId;
 		managerID=mngID;
 	}
+
 	void updateSecondaryInfo(String add, String phNo){
-		
 		address=add;
 		phoneNumber=phNo;
 	}
+
 	void displayPrimaryInfo(){
 		System.out.println("------------------------------------------------------------------------------------------------");
 		System.out.println("EMPLOYEE PRIMARY DETAILS");
@@ -28,12 +27,14 @@ class EmployeeDetailsPrint{
 		System.out.println("Employee ID is ="+empId);
 		System.out.println("Manager ID is ="+managerID);
 	}
+
 	void displayOtherInfo(){
 		System.out.println("------------------------------------------------------------------------------------------------");
 		System.out.println("EMPLOYEE OTHER DETAILS");
 		System.out.println("Employee Address is ="+address);
 		System.out.println("Employee Phone Number is ="+phoneNumber);
 	}
+
 	void displayAllInfo(){
 		System.out.println("------------------------------------------------------------------------------------------------");
 		System.out.println("EMPLOYEE DETAILS");
@@ -43,6 +44,7 @@ class EmployeeDetailsPrint{
 		System.out.println("Employee Address is ="+address);
 		System.out.println("Employee Phone Number is ="+phoneNumber);
 	}
+
 	public static void main(String[] args){
 		EmployeeDetailsPrint employeedetails=new EmployeeDetailsPrint();
 		employeedetails.updatePrimaryInfo("Ajay", "Pagar", 37, 20);
@@ -52,3 +54,23 @@ class EmployeeDetailsPrint{
 		employeedetails.displayAllInfo();
 	}
 }
+
+/*
+OUTPUT
+------------------------------------------------------------------------------------------------
+EMPLOYEE PRIMARY DETAILS
+Employee Name is = Ajay Pagar
+Employee ID is =37
+Manager ID is =20
+------------------------------------------------------------------------------------------------
+EMPLOYEE OTHER DETAILS
+Employee Address is =Near Karve Statue Kothrud
+Employee Phone Number is =+91-9889877877
+------------------------------------------------------------------------------------------------
+EMPLOYEE DETAILS
+Employee Name is = Ajay Pagar
+Employee ID is =37
+Manager ID is =20
+Employee Address is =Near Karve Statue Kothrud
+Employee Phone Number is =+91-9889877877
+*/

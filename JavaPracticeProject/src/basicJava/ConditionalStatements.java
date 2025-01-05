@@ -1,8 +1,8 @@
 package basicJava;
 public class ConditionalStatements {
-	
+
 	void grade(int score) {
-		
+
 		if(score>90 && score<=100){
 			System.out.println("Grade is A+");
 		}else if(score>80 && score<=90) {
@@ -17,11 +17,15 @@ public class ConditionalStatements {
 			System.out.println("Your Score is " +score +" you need to Work Harder");
 		}else {
 			System.out.println("Invalid Score");
-		}
-		
+		}	
 	}
 	public static void main(String[] args) {
-		ConditionalStatements assignment9=new ConditionalStatements();
-		assignment9.grade(7);
+		ConditionalStatements score=new ConditionalStatements();
+		score.grade(7);
 	}
 }
+
+/*
+OUTPUT
+Your Score is 7 you need to Work Harder
+*/

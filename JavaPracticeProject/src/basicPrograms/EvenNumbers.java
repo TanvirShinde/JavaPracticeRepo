@@ -1,25 +1,7 @@
-/*
-Write only one program having the following methods.
-1. print all even numbers in a user defined range.
-Hint : pass start and end index as a parameter.
-Input : Range -> 10 to 15
-Output : Even numbers are:
-10
-12
-14
-printEvenNum(int startRange, int endRange){
-for(int num=startRange; num<=endRange; num++){
-}
-}
-printEvenNum(int startRange, int endRange){
-for(; startRange<=endRange; startRange++){
-}
-}
-*/
-package basicPrograms;
 
+package basicPrograms;
 public class EvenNumbers {
-	
+
 	void evenNumber(int startRange,int endRange) {
 		System.out.println("All Even Numbers from " +startRange +" to " +endRange +" for Menthod evenNumber are: ");
 		for(int i=startRange;i<=endRange;i++) {
@@ -40,9 +22,25 @@ public class EvenNumbers {
 	}
 
 	public static void main(String[] args) {
-		EvenNumbers assignment12=new EvenNumbers();
-		assignment12.evenNumber(1,10);
-		assignment12.evenNumber1(11,20);
+		EvenNumbers number=new EvenNumbers();
+		number.evenNumber(1,10);
+		number.evenNumber1(11,20);
 	}
-
 }
+
+/*
+OUTPUT
+All Even Numbers from 1 to 10 for Menthod evenNumber are: 
+2
+4
+6
+8
+10
+-----------------------------------------------------------------------------
+All Even Numbers from 11 to 20 for Method evenNumber1 are : 
+12
+14
+16
+18
+20
+*/

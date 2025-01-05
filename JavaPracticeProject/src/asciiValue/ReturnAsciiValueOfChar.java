@@ -18,3 +18,11 @@ public class ReturnAsciiValueOfChar {
 		printAsciiValue('.');
 	}
 }
+
+/*
+OUTPUT
+Input char is - A And it's ASCII value is - 65
+Input char is - x And it's ASCII value is - 120
+Input char is -   And it's ASCII value is - 32
+Input char is - . And it's ASCII value is - 46
+*/

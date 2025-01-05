@@ -1,5 +1,4 @@
 package basicPrograms;
-
 class FirstThreeNumberDivisibleBy2Numbers{
 	void nosdivisible1(int startRange, int endRange){
 		int count=0;
@@ -14,10 +13,18 @@ class FirstThreeNumberDivisibleBy2Numbers{
 				}
 			}
 		}
-		
 	}
+
 	public static void main(String[] args){
-		FirstThreeNumberDivisibleBy2Numbers assignment15=new FirstThreeNumberDivisibleBy2Numbers();
-		assignment15.nosdivisible1(10,500);
+		FirstThreeNumberDivisibleBy2Numbers number=new FirstThreeNumberDivisibleBy2Numbers();
+		number.nosdivisible1(10,500);
 	}
 }
+
+/*
+OUTPUT
+First 3 Numbers divisible by 3 and 4 are = 
+12
+24
+36
+*/

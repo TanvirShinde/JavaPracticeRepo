@@ -1,5 +1,4 @@
 package basicPrograms;
-
 public class MaxMinNumber {
 	
 	void minOf2(int num1, int num2) {
@@ -22,5 +21,10 @@ public class MaxMinNumber {
 		maxmin.minOf2(10,17);
 		maxmin.maxOf2(10,17);
 	}
-
 }
+
+/*
+OUTPUT
+10 is Smaller between 10 and 17
+17 is bigger between 10 and 17
+*/

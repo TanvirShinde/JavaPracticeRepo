@@ -1,0 +1,34 @@
+package asciiValue;
+
+public class PrintAllValuesfromAscii {
+
+	void upperCaseAscii() {
+		for(char ch='A';ch<='Z';ch++) {
+			int ascii=ch;
+			System.out.println(ch +" -> " +ascii);
+		}
+	}
+
+	void lowerCaseAscii() {
+		System.out.println("---------------------------------------------------------------------");
+		for(char ch='a';ch<='z';ch++) {
+			int ascii=ch;
+			System.out.println(ch +" -> " +ascii);
+		}
+	}
+
+	void numberAscii() {
+		System.out.println("---------------------------------------------------------------------");
+		for(char i='0';i<='9';i++) {
+			System.out.println(i +" -> " +(int)i);
+		}
+	}
+
+	public static void main(String[] args) {
+		PrintAllValuesfromAscii value=new PrintAllValuesfromAscii();
+		value.upperCaseAscii();
+		value.lowerCaseAscii();
+		value.numberAscii();
+	}
+}
+
