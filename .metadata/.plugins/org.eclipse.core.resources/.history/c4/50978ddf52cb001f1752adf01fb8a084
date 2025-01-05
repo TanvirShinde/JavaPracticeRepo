@@ -1,0 +1,29 @@
+package programs_by_using_scanner_class;
+
+import java.util.Scanner;
+
+public class TEST34 {
+	
+	Scanner input = new Scanner(System.in);
+	int Anumber= input.nextInt();
+	
+	void testAm (int number ) {
+		
+		Anumber=number;
+		int rev =0 ;
+		int rem ;
+		
+
+		while (number > 0) {
+			rem = number % 10 ;
+			rev = rev + rem *rem * rem * rem;
+			number = number / 10 ;
+		}
+	}
+
+	public static void main(String[] args) {
+
+		
+
+	}
+}

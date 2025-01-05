@@ -1,0 +1,30 @@
+package programs_by_using_scanner_class;
+
+import java.util.Scanner;
+
+public class Factorial2Way {
+
+	void checkfactorial ( int number) {
+		int fact = 1;
+		for ( int i=1 ; i<=number ; i++) {
+			fact = fact * i;
+		}
+		System.out.println(fact);
+	}
+
+	public static void main(String[] args) {
+		Scanner jk = new Scanner (System.in);
+		System.out.println("Enter your number?");
+		int number = jk.nextInt();
+		Factorial2Way test = new Factorial2Way();
+		test.checkfactorial(number);
+		jk.close();
+	}
+}
+
+/*
+OUTPUT
+Enter your number?
+5
+120
+*/

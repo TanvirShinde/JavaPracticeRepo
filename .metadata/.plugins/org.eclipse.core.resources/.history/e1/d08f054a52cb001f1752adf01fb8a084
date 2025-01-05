@@ -1,0 +1,20 @@
+package programs_by_using_scanner_class;
+
+import java.util.Scanner;
+
+public class TEST34 {
+	
+	Scanner input = new Scanner(System.in);
+	int number= input.nextInt();
+	
+	void testAm (int number ) {
+		
+		
+	}
+
+	public static void main(String[] args) {
+
+		
+
+	}
+}

@@ -5,27 +5,24 @@ import java.util.Scanner;
 public class SwapNumber {
 
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
-
 		System.out.println("Enter your number ");
-
 		int number1= input.nextInt();
-
 		int number2= input.nextInt();
-
-
 		int c;
-
 		c=number1;
-
 		number1=number2;
-
 		number2=c;
-
 		System.out.println("The value of number1 is:"+ number1);
-
 		System.out.println("The value of number2 is "+number2);
-
+		input.close();
 	}
 }
+/*
+OUTPUT
+Enter your number 
+10
+11
+The value of number1 is:11
+The value of number2 is 10
+*/
