@@ -1,0 +1,23 @@
+package Vagaro;
+
+public class Assignment18 {
+
+	public static void main(String[] args) {
+		Assignment18 assignment = new Assignment18();
+		assignment.Num(10,498);
+
+	}
+	void Num(int Start,int End){
+		int count=0;
+		for(int i= End;i>=Start;i--){
+			if(i%5==0) {
+				System.out.println(i);
+				count++;
+			}
+			if(count==1) {
+				break;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+class CountCar{
+
+	void A(String input){
+		for(int i =0;i<String.length();i++){
+			
+		}
+	}
+	public static void main(String [] args){
+	CountCar a = new CountCar("Hello world");
+	a.A();
+	}
+}

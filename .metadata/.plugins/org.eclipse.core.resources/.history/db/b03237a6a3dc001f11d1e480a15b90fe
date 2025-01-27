@@ -1,0 +1,23 @@
+package Vagaro;
+
+public class Assignment14 {
+
+	public static void main(String[] args) {
+		Assignment14 assignment = new Assignment14();
+		assignment.Num(0,500);
+
+	}
+	void Num(int Start,int End){
+		int count=0;
+		for(int i= End;i>=Start;i--){
+			if(i%3==0 && i%5==0){
+			System.out.println("Even num are:"+i);	
+			count++;
+			if(count==3) {
+				break;
+			}
+			}
+		}
+	}
+
+}

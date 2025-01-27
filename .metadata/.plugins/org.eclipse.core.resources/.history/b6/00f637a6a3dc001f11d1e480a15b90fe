@@ -1,0 +1,18 @@
+package Vagaro;
+
+public class Assignment12 {
+
+	public static void main(String[] args) {
+		Assignment12 assignment = new Assignment12();
+		assignment.EvenNum(10,50);
+
+	}
+	void EvenNum(int Start,int End){
+		for(int i= Start;i<=End;i++){
+			if(i%2==0){
+			System.out.println("Even num are:"+i);	
+			}
+		}
+	}
+
+}

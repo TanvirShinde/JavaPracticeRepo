@@ -3,5 +3,4 @@ INDEX VERSION 1.134+C:\Eclipse C Drive Java\.metadata\.plugins\org.eclipse.jdt.c
 1865797976.index
 3795521948.index
 2159265395.index
-2774134201.index
 2404336725.index

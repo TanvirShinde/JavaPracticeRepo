@@ -1,0 +1,28 @@
+package Vagaro;
+
+public class Assignment13 {
+
+	public static void main(String[] args) {
+		Assignment13 assignment = new Assignment13();
+		assignment.Num(10,50);
+
+	}
+	void Num(int Start,int End){
+		int sum =0,count=0;;
+		for(int i= Start;i<=End;i++){
+			/*
+			if(i%2==0){
+			System.out.println("Even num are:"+i);	
+			}
+			*/
+			if(i%3==0 && i%5==0) {
+				System.out.println("Divisiable num are:"+i);
+				sum += i;
+				count++;
+			}
+		}
+		System.out.println(sum);
+		System.out.println(count);
+	}
+
+}

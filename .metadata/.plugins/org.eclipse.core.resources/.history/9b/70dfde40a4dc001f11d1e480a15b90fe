@@ -1,0 +1,28 @@
+public class challange2 {
+
+	public static void main(String[] args) {
+		challange2 ch = new challange2();
+		int[] input = { 66, 12, 69, 12, 77, 66, 69, 8, 5, 14 };
+		ch.getUnique(input);
+	}
+
+	List<Integer> getOrginalList(int[] arr) {
+		List<Integer> OriginalList = new ArrayList<Integer>();
+		for (int i = 0; i < arr.length; i++) {
+			OriginalList.add(arr[i]);
+		}
+		return OriginalList;
+	}
+	List<Integer>getUnique(int[] arr){
+		List<Integer>Unique = getOrginalList(arr);
+		for(int i=0;i<Unique.size();i++) {
+			int A = Unique.get(i);
+			if(Unique.indexOf(A)==Unique.lastIndexOf(A)) {
+				System.out.println("First unique number is "+A);
+				break;
+			}
+		}
+		return Unique;
+	}
+
+}

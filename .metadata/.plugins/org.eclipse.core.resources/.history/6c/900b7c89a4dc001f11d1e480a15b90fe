@@ -1,0 +1,32 @@
+package Vagaro;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+		Practice2 p = new Practice2();
+		String input = "tech12345678credit";
+		int[] sums = p.calcsum(input);
+		 System.out.println("Evensum = " + sums[0] + " Oddsum = " + sums[1]);
+		
+
+	}
+	
+	int[] calcsum(String str) {
+		int num = 0,evensum=0,oddsum=0;
+		for(int i=0;i<str.length();i++) {
+			if(Character.isDigit(str.charAt(i))) {	
+				num = Character.getNumericValue(str.charAt(i));
+				if(num%2==0) {
+					evensum += num;
+				}else if(num%2==1) {
+					oddsum += num;
+				}
+				
+			}
+			}
+		//System.out.println("evensum="+evensum+" Oddsum="+oddsum);
+		 return new int[]{evensum, oddsum};
+		}
+	}
+
+

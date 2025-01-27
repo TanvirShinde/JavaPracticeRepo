@@ -1,0 +1,40 @@
+/*
+ * Assignment - 61 : 22nd Dec'2024 [20 min] [IMP]
+reverse each string in array at the same place.
+
+input : {"TeCh", "Aashvi", "Credits", "AnsH"}
+output : [hsna,stiderc, ivhsaa, hcet]
+
+
+ */
+package Array;
+
+import java.util.Arrays;
+
+public class StringArrayRev3 {
+
+	public static void main(String[] args) {
+		StringArrayRev3 rev = new StringArrayRev3();
+		String[] input = {"TeCh", "Aashvi", "Credits", "AnsH"};
+		String[] str = rev.ReverOrderString(input);
+		System.out.println(Arrays.toString(str));
+	}
+
+	String Reverse(String str) {
+		String word = " ";
+		for(int i=0;i<str.length();i++) {
+			word += str.charAt(i);
+		}
+		word = word.toLowerCase();
+		return word;
+	}
+	String[] ReverOrderString(String[] input) {
+		String[] output = new String[input.length];
+		for(int i=0 ; i<input.length ; i++) {
+			output[i] = Reverse(input[i]);
+		}
+		return output;
+	}
+	
+
+}

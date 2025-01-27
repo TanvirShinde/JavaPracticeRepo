@@ -1,0 +1,20 @@
+package stringPrograms;
+public class Assign_22_FindTotalNumberOfDigitInString {
+
+	static int digitCount = 0;
+
+	int findDigitInString(String str){
+		for(int index = 0; index < str.length(); index++){
+			if(Character.isDigit(str.charAt(index)))
+				FindTotalNumberOfDigitInString.digitCount++;
+			}
+		return digitCount;
+	}	
+
+	public static void main(String[] args) {
+		String str = "aa1kan33ks4h5a";
+		FindTotalNumberOfDigitInString a22 = new FindTotalNumberOfDigitInString();
+		int count = a22.findDigitInString(str);
+		System.out.println("Total digit count in given String is " + count);
+	}
+}

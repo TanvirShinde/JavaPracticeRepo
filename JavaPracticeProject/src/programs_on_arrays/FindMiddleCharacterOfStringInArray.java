@@ -7,9 +7,11 @@ public class FindMiddleCharacterOfStringInArray {
 			if (str.length() % 2 == 0) {
 				int num = (str.length() / 2) - 1;	
 				ch = str.charAt(num);
+				break;
 			} else {
 				int num = str.length() / 2;
 				ch = str.charAt(num);
+				break;
 			}
 		}
 		return ch;

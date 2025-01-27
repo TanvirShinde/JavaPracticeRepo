@@ -1,0 +1,28 @@
+package Vagaro;
+
+class Practice1 {
+
+	int score;
+	void ObatainScore(int ObatainScore) {
+		if(ObatainScore>90 && ObatainScore<=100) {
+			System.out.println("Congratulation You got Grade A+");
+		}else if(ObatainScore>80 && ObatainScore<=90) {
+			System.out.println("Congratulation You got Grade A");
+		}else if(ObatainScore>70 && ObatainScore<=80) {
+			System.out.println("Congratulation You got Grade B+");
+		}else if(ObatainScore>60 && ObatainScore<=70) {
+			System.out.println("Congratulation You got Grade B");
+		}else if(ObatainScore>50 && ObatainScore<=60) {
+			System.out.println("Congratulation You got Grade C");
+		}else if(ObatainScore<=50) {
+			System.out.println("You need to work Hard");
+		}
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Practice1 p = new Practice1();
+		p.ObatainScore(10);
+	}
+
+}

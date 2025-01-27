@@ -1,0 +1,22 @@
+package Vagaro;
+
+public class Assignment21 {
+
+	public static void main(String[] args) {
+		Assignment21 assignment = new Assignment21();
+		int a = assignment.Num("prem lata gupta");
+		System.out.println(a);
+	}
+	int Num(String str){
+		int count=0;
+
+		for(int i=0;i<str.length();i++) {
+			char ch = str.charAt(i);
+			if(ch != ' ' ) {
+				count++;
+			}
+		}
+		return count;
+	}
+
+}
