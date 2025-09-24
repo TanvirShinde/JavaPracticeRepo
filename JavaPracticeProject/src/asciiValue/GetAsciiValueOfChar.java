@@ -1,5 +1,7 @@
 package asciiValue;
 public class GetAsciiValueOfChar {
+	
+	
 
 	void asciivalue(char ch) {
 		int asciiValue=(int) ch;
